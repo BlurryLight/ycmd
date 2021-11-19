@@ -823,7 +823,7 @@ def GetCsCompleterDataForPlatform():
       'linux64': {
         'version': 'v1.35.4',
         'download_url': ( 'https://github.com/OmniSharp/omnisharp-roslyn/release'
-                          's/download/v1.35.4/omnisharp.http-linux-x64.tar.gz' ),
+                          's/download/v1.35.4/omnisharp.http-linux-x64' ),
         'file_name': 'omnisharp.http-linux-x64.tar.gz',
         'check_sum': ( 'a1b89e5cb67afedfc17515eae565c58a31c36d660dde7f15e4de4ef8'
                        '5e464b1c' ),
