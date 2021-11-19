@@ -1087,7 +1087,7 @@ def GetClangdTarget():
         else:
             return [
               ( 'clangd-10.0.0-x86_64-glibc2.12-unknown-linux-gnu',
-                'eaba880ffc4d83371cbb65bbb1fb299aa7a3f6289f903cb04f5fe142ea54f5db' ) ]
+                'a8636256e051cb3e075fc4b0ea4932ea58a27952a31b4b621ce22d761dba4f37' ) ]
     sys.exit( CLANGD_BINARIES_ERROR_MESSAGE.format( version = CLANGD_VERSION,
                                                     platform = 'this system' ) )
 
