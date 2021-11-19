@@ -823,7 +823,7 @@ def GetCsCompleterDataForPlatform():
       'linux64': {
         'version': 'v1.35.4',
         'download_url': ( 'https://github.com/OmniSharp/omnisharp-roslyn/release'
-                          's/download/v1.35.4/omnisharp.http-linux-x64' ),
+                          's/download/v1.35.4/omnisharp.http-linux-x64.tar.gz' ),
         'file_name': 'omnisharp.http-linux-x64.tar.gz',
         'check_sum': ( 'a1b89e5cb67afedfc17515eae565c58a31c36d660dde7f15e4de4ef8'
                        '5e464b1c' ),
@@ -1086,7 +1086,7 @@ def GetClangdTarget():
                 '5e39f504d340de4973b4f7a7ce583c8ab190188387f554f8517f9003890de098' ) ]
         else:
             return [
-              ( 'clangd-10.0.0-x86_64-glibc2.12-unknown-linux-gnu.tar.bz2',
+              ( 'clangd-10.0.0-x86_64-glibc2.12-unknown-linux-gnu',
                 'eaba880ffc4d83371cbb65bbb1fb299aa7a3f6289f903cb04f5fe142ea54f5db' ) ]
     sys.exit( CLANGD_BINARIES_ERROR_MESSAGE.format( version = CLANGD_VERSION,
                                                     platform = 'this system' ) )
